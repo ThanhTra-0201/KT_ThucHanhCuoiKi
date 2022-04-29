@@ -110,22 +110,22 @@
           var sdt = $("#txtSDT").val();
           var anh = $("#txtAnh").val().substring(12);
 
-          var them =
-            "<tr><td>" +
+           var them =
+            "<tr><th>" +
             i++ +
-            "<td><td>" +
+            "<th>" +
             ten +
-            "<td><td>" +
+            "<th>" +
             cmnd +
-            "<td><td>" +
+            "<th>" +
             quequan +
-            "<td><td>" +
+            "<th>" +
             email +
-            "<td><td>" +
+            "<<th>" +
             sdt +
-            "<td><td>" +
+            "<th>" +
             anh +
-            "</td></tr>";
+            "</th></tr>";
           $("table").append(them);
           $("#myModal").modal("hide");
         });
